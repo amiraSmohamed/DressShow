@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="wedding_bt_text">Wedding Dresses</string>
+    <string name="casual_bt_text">Casual Dresses</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="dress_description">Description</string>
+    <string name="dress_price">Price</string>
+    <string name="dress_wieght">Expected Wieght</string>
+    <string name="action_add">Add</string>
+    <string name="action_bar_text">Dress  Show </string>
+    <string name="enter_price">Wanted price</string>
+    <string name="enter_description">Dress description</string>
+    <string name="enter_wieght">Suitable wiegth</string>
+    <string name="enter_image_url">Image link</string>
+    <string name="enter_contact_info">Your information</string>
+    <string name="save">Save</string>
+    <string name="save_new_dress">save new dress into firebase database </string>
+    <string name="move_to_wedding_list">move to wedding dress list</string>
+    <string name="move_to_casual_list">move to casual dress list</string>
+    <string name="dress_display">dress image container </string>
+    <string name="detailes_dress_image">dress detailes image</string>
+    <string name="widget_image">image displayed in widget</string>
+
+
+</resources>

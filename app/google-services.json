@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "413265406268",
+    "firebase_url": "https://dressshow-2ee35.firebaseio.com",
+    "project_id": "dressshow-2ee35",
+    "storage_bucket": "dressshow-2ee35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413265406268:android:818d3655e8a2dc4d",
+        "android_client_info": {
+          "package_name": "com.example.eng.dressshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413265406268-7466065fa8mgrieblqqp1osqiemu2h9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eng.dressshow",
+            "certificate_hash": "529f1ba42c729e0d607fa0d50565282be66fde43"
+          }
+        },
+        {
+          "client_id": "413265406268-gj488o1dhohujrpe2pmgo2bo45o17l94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGx9olm8ycxWHm_VkcHLuAyRxLUd1-SEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413265406268-gj488o1dhohujrpe2pmgo2bo45o17l94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

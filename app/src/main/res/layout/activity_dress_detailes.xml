@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        tools:context=".DressDetailes"
+        android:focusable="true">
+
+            <ImageView
+                android:id="@+id/dress_poster_iv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_hieght"
+                android:paddingLeft="@dimen/view_padding"
+                android:paddingRight="@dimen/view_padding"
+                android:paddingTop="@dimen/view_padding"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/detailes_dress_image"
+                />
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_hieght"
+            android:layout_margin="@dimen/line_margin"
+            android:layout_marginEnd="@dimen/line_margin"
+            android:layout_marginStart="@dimen/line_margin"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:text="@string/dress_description"
+            android:textColor="@color/button_Color"
+            android:textSize="@dimen/text_size"
+             />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text__view_contect_size" />
+
+        <View
+            android:id="@+id/SplitLine_hor2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_hieght"
+            android:layout_margin="@dimen/line_margin"
+            android:layout_marginEnd="@dimen/line_margin"
+            android:layout_marginStart="@dimen/line_margin"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:text="@string/dress_price"
+            android:textColor="@color/button_Color"
+            android:textSize="@dimen/text_size"
+             />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:textSize="@dimen/text__view_contect_size"
+            />
+        <View
+            android:id="@+id/SplitLine_hor3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_hieght"
+            android:layout_margin="@dimen/line_margin"
+            android:layout_marginEnd="@dimen/line_margin"
+            android:layout_marginStart="@dimen/line_margin"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:text="@string/dress_wieght"
+            android:textColor="@color/button_Color"
+            android:textSize="@dimen/text_size"
+            />
+
+        <TextView
+            android:id="@+id/expected_wieght"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:textSize="@dimen/text__view_contect_size"
+            />
+        <View
+            android:id="@+id/SplitLine_hor4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_hieght"
+            android:layout_margin="@dimen/line_margin"
+            android:layout_marginEnd="@dimen/line_margin"
+            android:layout_marginStart="@dimen/line_margin"
+            android:background="@android:color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:text="@string/contact_info"
+            android:textColor="@color/button_Color"
+            android:textSize="@dimen/text_size"
+            />
+        <TextView
+            android:id="@+id/contact_info_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/view_margin"
+            android:layout_marginEnd="@dimen/view_margin"
+            android:layout_marginStart="@dimen/view_margin"
+            android:textSize="@dimen/text__view_contect_size"
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:stateListAnimator="@animator/fab_state_list_anim"
+            android:id="@+id/add_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:clickable="true"
+            android:src="@drawable/share"
+            android:contentDescription="@string/action_add"
+            android:layout_gravity="bottom|end"
+            android:focusable="true"
+            />
+    </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</ScrollView>
